@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="icon">
+            <img src="/img/download.png" alt="" height="20px" width="20px">
+        </div>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#skills" class="active">Skills</a></li>
+            <li><a href="#projects"class="active">Projects</a></li>
+            <li><a href="#contact" class="active">Contact</a></li>
+        </ul>
+    </nav>
+    
+</header>
+
+
+ <section id="home" class="hero" data-aos="zoom-in-up">
+    <h1 class="gradientText">Hi, I'm Tejas Nehe</h1>
+    <p>MERN Stack Developer</p>
+     <a href="../file/tejas.cv.pdf" download class="cvBtn">Download CV</a>
+<div class="profile">
+    <img src="../img/IMG_20251112_093114.jpg" alt=""height="200px"width="200px">
+</div>
+</section> 
+
+
+<section id="about"class="about-card">
+  <h2>About Me</h2>
+
+  <div class="about-card">
+    <h3>Hello! I'm Tejas 👋</h3>
+
+    <p>
+      I am a passionate and self-motivated
+      <span class="highlight">Front-End Web Developer</span>
+      with a strong interest in creating clean, modern,
+      and user-friendly web applications.
+    </p>
+
+    <p>
+      I have hands-on experience in
+      <span class="highlight">HTML, CSS, JavaScript, Bootstrap</span>
+      and basic knowledge of backend technologies like
+      <span class="highlight">Node.js and MongoDB</span>.
+      I enjoy turning ideas into real products that solve
+      real-world problems.
+</p>
+
+    <p>
+      I focus on writing clean and reusable code,
+      building responsive layouts, and improving
+      website performance. I regularly practice coding
+      and work on personal projects to sharpen my skills.
+    </p>
+
+    <p>
+      My career goal is to start my professional journey
+      as a <span class="highlight">Front-End Developer</span>,
+      gain industry experience, and grow into a
+      <span class="highlight">Full-Stack Developer</span>
+      in the future.
+    </p>
+
+    <ul class="about-list">
+      <li>✔ Strong foundation in HTML & CSS</li>
+      <li>✔ Responsive Web Design</li>
+      <li>✔ JavaScript DOM Manipulation</li>
+      <li>✔ Git & GitHub Basics</li>
+      <li>✔ Continuous Learning Mindset</li>
+    </ul>
+  </div>
+</section>
+
+
+
+<section id="skills" class="skills-section">
+  <h2>Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <img src="../img/html-5_5968267.png" alt="HTML">
+      <h3>HTML5</h3>
+      <p>Semantic tags, forms, accessibility and clean structure.</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="../img/css_919826 (1).png" alt="CSS">
+      <h3>CSS3</h3>
+      <p>Flexbox, Grid, responsive layouts and animations.</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="../img/js.png" alt="JavaScript">
+      <h3>JavaScript</h3>
+      <p>DOM manipulation, ES6+, async code and UI interactions.</p>
+    </div>
+
+    <div class="skill-card">
+     <img src="../img/icons8-bootstrap-logo-48.png" alt="Bootstrap">
+      <h3>Bootstrap</h3>
+      <p>Responsive UI, grid system and prebuilt components.</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="../img/node.js png.jpeg" alt="Node.js">
+      <h3>Node.js</h3>
+      <p>REST APIs, server-side logic and Express.js.</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="../img/mongodb png.jpeg" alt="MongoDB">
+      <h3>MongoDB</h3>
+      <p>NoSQL database, CRUD operations and data modeling.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="projects" class="projects-card">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>
+      <span class="pink">My</span>
+      <span class="blue">Portfolio</span>
+    </h3>
+
+    <p>
+      This is my personal portfolio created using
+      HTML, CSS, and JavaScript.
+    </p>
+
+    <a href="#" class="btn">View Project</a>
+  </div>
+
+</section>
+
+
+
+
+<section id="contact" class="contact-section">
+  <h2 class="contact-title">Contact Me</h2>
+
+  <div class="contact-card">
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:tejasnehe045@gmail.com">
+        tejasnehe045@gmail.com
+      </a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-phone"></i>
+      <a href="tel:+91XXXXXXXXXX">
+        +91 XXXXXXXXXX
+      </a>
+    </div>
+
+    <div class="contact-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Maharashtra, India</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration:1200,
+    once:true
+});
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
